@@ -1,0 +1,1513 @@
+0
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:NA
+Orderby:CONTINENT
+Groupby:NA
+Having:NA
+--------
+302613,ZZ,Unknown or unassigned country,AF,
+302612,ZW,Zimbabwe,AF,
+302611,ZM,Zambia,AF,
+302610,ZA,South Africa,AF,
+302609,YT,Mayotte,AF,
+302608,UG,Uganda,AF,
+302607,TZ,Tanzania,AF,
+302557,BF,Burkina Faso,AF,
+302556,AO,Angola,AF,
+302615,AQ,Antarctica,AN,
+302671,YE,Yemen,AS,
+302670,VN,Vietnam,AS,
+302669,UZ,Uzbekistan,AS,
+302668,TW,Taiwan,AS,
+302622,BD,Bangladesh,AS,
+302621,AZ,Azerbaijan,AS,
+302620,AM,Armenia,AS,
+302619,AF,Afghanistan,AS,
+22,AF,India,AS,
+22,AE,United Arab Emirates,AS,
+302721,VA,Vatican City,EU,
+302719,UA,Ukraine,EU,
+302676,BE,Belgium,EU,
+302675,BA,Bosnia and Herzegovina,EU,
+302674,AT,Austria,EU,
+302673,AL,Albania,EU,
+22,AD,Andorra,EU,
+302758,VI,U.S. Virgin Islands,NA,
+302757,VG,British Virgin Islands,NA,
+302756,VC,Saint Vincent and the Grenadines,NA,
+302755,US,United States,NA,
+302726,BB,Barbados,NA,
+302725,AW,Azerbaijan,NA,
+302723,AI,Anguilla,NA,
+302722,AG,Antigua and Barbuda,NA,
+302788,WS,Samoa,OC,
+302787,WF,Wallis and Futuna,OC,
+302786,VU,Vanuatu,OC,
+302785,UM,United States Minor Outlying Islands,OC,
+302764,AU,Australia,OC,
+302763,AS,American Samoa,OC,
+302802,VE,Venezuela,SA,
+302801,UY,Uruguay,SA,
+302789,AR,Argentina,SA,
+22,AG,Spain,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+1
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:NAME = Anguilla 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302723,AI,Anguilla,NA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+2
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+302721 302721 Manchester 
+302722 302722 Melbourne 
+302723 302723 West Indies 
+302725 302725 Real Madrid 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+3
+7
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+4
+Querytype:select
+Tablename:countries
+Columns:CONTINENT
+Distinct:NA
+Condition:NA
+Orderby:CONTINENT
+Groupby:NA
+Having:NA
+--------
+AF,
+AF,
+AF,
+AF,
+AF,
+AF,
+AF,
+AF,
+AF,
+AN,
+AS,
+AS,
+AS,
+AS,
+AS,
+AS,
+AS,
+AS,
+AS,
+AS,
+EU,
+EU,
+EU,
+EU,
+EU,
+EU,
+EU,
+NA,
+NA,
+NA,
+NA,
+NA,
+NA,
+NA,
+NA,
+OC,
+OC,
+OC,
+OC,
+OC,
+OC,
+SA,
+SA,
+SA,
+SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+5
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID = 302620 OR ID = 302723 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302620,AM,Armenia,AS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+6
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID = 302620 AND ID = 302620 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302620,AM,Armenia,AS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+7
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID > 22 AND ID < 1302620 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302619,AF,Afghanistan,AS
+302722,AG,Antigua and Barbuda,NA
+302723,AI,Anguilla,NA
+302673,AL,Albania,EU
+302620,AM,Armenia,AS
+302556,AO,Angola,AF
+302615,AQ,Antarctica,AN
+302789,AR,Argentina,SA
+302763,AS,American Samoa,OC
+302674,AT,Austria,EU
+302764,AU,Australia,OC
+302725,AW,Azerbaijan,NA
+302621,AZ,Azerbaijan,AS
+302675,BA,Bosnia and Herzegovina,EU
+302726,BB,Barbados,NA
+302622,BD,Bangladesh,AS
+302676,BE,Belgium,EU
+302557,BF,Burkina Faso,AF
+302668,TW,Taiwan,AS
+302607,TZ,Tanzania,AF
+302719,UA,Ukraine,EU
+302608,UG,Uganda,AF
+302785,UM,United States Minor Outlying Islands,OC
+302755,US,United States,NA
+302801,UY,Uruguay,SA
+302669,UZ,Uzbekistan,AS
+302721,VA,Vatican City,EU
+302756,VC,Saint Vincent and the Grenadines,NA
+302802,VE,Venezuela,SA
+302757,VG,British Virgin Islands,NA
+302758,VI,U.S. Virgin Islands,NA
+302670,VN,Vietnam,AS
+302786,VU,Vanuatu,OC
+302787,WF,Wallis and Futuna,OC
+302788,WS,Samoa,OC
+302671,YE,Yemen,AS
+302609,YT,Mayotte,AF
+302610,ZA,South Africa,AF
+302611,ZM,Zambia,AF
+302612,ZW,Zimbabwe,AF
+302613,ZZ,Unknown or unassigned country,AF
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+8
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID > 22 AND ID < 302723 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302619,AF,Afghanistan,AS
+302722,AG,Antigua and Barbuda,NA
+302673,AL,Albania,EU
+302620,AM,Armenia,AS
+302556,AO,Angola,AF
+302615,AQ,Antarctica,AN
+302674,AT,Austria,EU
+302621,AZ,Azerbaijan,AS
+302675,BA,Bosnia and Herzegovina,EU
+302622,BD,Bangladesh,AS
+302676,BE,Belgium,EU
+302557,BF,Burkina Faso,AF
+302668,TW,Taiwan,AS
+302607,TZ,Tanzania,AF
+302719,UA,Ukraine,EU
+302608,UG,Uganda,AF
+302669,UZ,Uzbekistan,AS
+302721,VA,Vatican City,EU
+302670,VN,Vietnam,AS
+302671,YE,Yemen,AS
+302609,YT,Mayotte,AF
+302610,ZA,South Africa,AF
+302611,ZM,Zambia,AF
+302612,ZW,Zimbabwe,AF
+302613,ZZ,Unknown or unassigned country,AF
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+9
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID >= 22 AND ID < 302723 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+22,AD,Andorra,EU
+22,AE,United Arab Emirates,AS
+22,AF,India,AS
+22,AG,Spain,SA
+302619,AF,Afghanistan,AS
+302722,AG,Antigua and Barbuda,NA
+302673,AL,Albania,EU
+302620,AM,Armenia,AS
+302556,AO,Angola,AF
+302615,AQ,Antarctica,AN
+302674,AT,Austria,EU
+302621,AZ,Azerbaijan,AS
+302675,BA,Bosnia and Herzegovina,EU
+302622,BD,Bangladesh,AS
+302676,BE,Belgium,EU
+302557,BF,Burkina Faso,AF
+302668,TW,Taiwan,AS
+302607,TZ,Tanzania,AF
+302719,UA,Ukraine,EU
+302608,UG,Uganda,AF
+302669,UZ,Uzbekistan,AS
+302721,VA,Vatican City,EU
+302670,VN,Vietnam,AS
+302671,YE,Yemen,AS
+302609,YT,Mayotte,AF
+302610,ZA,South Africa,AF
+302611,ZM,Zambia,AF
+302612,ZW,Zimbabwe,AF
+302613,ZZ,Unknown or unassigned country,AF
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+10
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID >= 22 AND ID < 1302620 AND ID <= 302619 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+22,AD,Andorra,EU
+22,AE,United Arab Emirates,AS
+22,AF,India,AS
+22,AG,Spain,SA
+302619,AF,Afghanistan,AS
+302556,AO,Angola,AF
+302615,AQ,Antarctica,AN
+302557,BF,Burkina Faso,AF
+302607,TZ,Tanzania,AF
+302608,UG,Uganda,AF
+302609,YT,Mayotte,AF
+302610,ZA,South Africa,AF
+302611,ZM,Zambia,AF
+302612,ZW,Zimbabwe,AF
+302613,ZZ,Unknown or unassigned country,AF
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+11
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:CODE LIKE aR AND NAME LIKE ArGenTiNA 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302789,AR,Argentina,SA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+12
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:CODE = AR AND NAME = Argentina 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302789,AR,Argentina,SA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+13
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:CODE LIKE aR OR CODE LIKE aw 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302789,AR,Argentina,SA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+14
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:CODE = AR OR NAME = Belgium 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302789,AR,Argentina,SA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+15
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:NAME = Anguilla OR CODE = AR 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302723,AI,Anguilla,NA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+16
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:NAME = Anguilla 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302723,AI,Anguilla,NA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+17
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:NAME LIKE AnGuilla 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+302723,AI,Anguilla,NA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+18
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:NA
+Orderby:CONTINENT
+Groupby:NA
+Having:NA
+--------
+302613,ZZ,Unknown or unassigned country,AF,
+302612,ZW,Zimbabwe,AF,
+302611,ZM,Zambia,AF,
+302610,ZA,South Africa,AF,
+302609,YT,Mayotte,AF,
+302608,UG,Uganda,AF,
+302607,TZ,Tanzania,AF,
+302557,BF,Burkina Faso,AF,
+302556,AO,Angola,AF,
+302615,AQ,Antarctica,AN,
+302671,YE,Yemen,AS,
+302670,VN,Vietnam,AS,
+302669,UZ,Uzbekistan,AS,
+302668,TW,Taiwan,AS,
+302622,BD,Bangladesh,AS,
+302621,AZ,Azerbaijan,AS,
+302620,AM,Armenia,AS,
+302619,AF,Afghanistan,AS,
+22,AF,India,AS,
+22,AE,United Arab Emirates,AS,
+302721,VA,Vatican City,EU,
+302719,UA,Ukraine,EU,
+302676,BE,Belgium,EU,
+302675,BA,Bosnia and Herzegovina,EU,
+302674,AT,Austria,EU,
+302673,AL,Albania,EU,
+22,AD,Andorra,EU,
+302758,VI,U.S. Virgin Islands,NA,
+302757,VG,British Virgin Islands,NA,
+302756,VC,Saint Vincent and the Grenadines,NA,
+302755,US,United States,NA,
+302726,BB,Barbados,NA,
+302725,AW,Azerbaijan,NA,
+302723,AI,Anguilla,NA,
+302722,AG,Antigua and Barbuda,NA,
+302788,WS,Samoa,OC,
+302787,WF,Wallis and Futuna,OC,
+302786,VU,Vanuatu,OC,
+302785,UM,United States Minor Outlying Islands,OC,
+302764,AU,Australia,OC,
+302763,AS,American Samoa,OC,
+302802,VE,Venezuela,SA,
+302801,UY,Uruguay,SA,
+302789,AR,Argentina,SA,
+22,AG,Spain,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+19
+Querytype:select
+Tablename:countries
+Columns:NAME,ID
+Distinct:NA
+Condition:ID > 22 AND ID < 1302620 
+Orderby:NA
+Groupby:NA
+Having:NA
+--------
+Afghanistan,302619
+Antigua and Barbuda,302722
+Anguilla,302723
+Albania,302673
+Armenia,302620
+Angola,302556
+Antarctica,302615
+Argentina,302789
+American Samoa,302763
+Austria,302674
+Australia,302764
+Azerbaijan,302725
+Azerbaijan,302621
+Bosnia and Herzegovina,302675
+Barbados,302726
+Bangladesh,302622
+Belgium,302676
+Burkina Faso,302557
+Taiwan,302668
+Tanzania,302607
+Ukraine,302719
+Uganda,302608
+United States Minor Outlying Islands,302785
+United States,302755
+Uruguay,302801
+Uzbekistan,302669
+Vatican City,302721
+Saint Vincent and the Grenadines,302756
+Venezuela,302802
+British Virgin Islands,302757
+U.S. Virgin Islands,302758
+Vietnam,302670
+Vanuatu,302786
+Wallis and Futuna,302787
+Samoa,302788
+Yemen,302671
+Mayotte,302609
+South Africa,302610
+Zambia,302611
+Zimbabwe,302612
+Unknown or unassigned country,302613
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+20
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID >= 22 
+Orderby:ID
+Groupby:NA
+Having:NA
+--------
+302802,VE,Venezuela,SA,
+302801,UY,Uruguay,SA,
+302789,AR,Argentina,SA,
+302788,WS,Samoa,OC,
+302787,WF,Wallis and Futuna,OC,
+302786,VU,Vanuatu,OC,
+302785,UM,United States Minor Outlying Islands,OC,
+302764,AU,Australia,OC,
+302763,AS,American Samoa,OC,
+302758,VI,U.S. Virgin Islands,NA,
+302757,VG,British Virgin Islands,NA,
+302756,VC,Saint Vincent and the Grenadines,NA,
+302755,US,United States,NA,
+302726,BB,Barbados,NA,
+302725,AW,Azerbaijan,NA,
+302723,AI,Anguilla,NA,
+302722,AG,Antigua and Barbuda,NA,
+302721,VA,Vatican City,EU,
+302719,UA,Ukraine,EU,
+302676,BE,Belgium,EU,
+302675,BA,Bosnia and Herzegovina,EU,
+302674,AT,Austria,EU,
+302673,AL,Albania,EU,
+302671,YE,Yemen,AS,
+302670,VN,Vietnam,AS,
+302669,UZ,Uzbekistan,AS,
+302668,TW,Taiwan,AS,
+302622,BD,Bangladesh,AS,
+302621,AZ,Azerbaijan,AS,
+302620,AM,Armenia,AS,
+302619,AF,Afghanistan,AS,
+302615,AQ,Antarctica,AN,
+302613,ZZ,Unknown or unassigned country,AF,
+302612,ZW,Zimbabwe,AF,
+302611,ZM,Zambia,AF,
+302610,ZA,South Africa,AF,
+302609,YT,Mayotte,AF,
+302608,UG,Uganda,AF,
+302607,TZ,Tanzania,AF,
+302557,BF,Burkina Faso,AF,
+302556,AO,Angola,AF,
+22,AD,Andorra,EU,
+22,AE,United Arab Emirates,AS,
+22,AF,India,AS,
+22,AG,Spain,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+21
+Querytype:select
+Tablename:countries
+Columns:NAME,ID
+Distinct:NA
+Condition:ID >= 22 
+Orderby:NAME,ID
+Groupby:NA
+Having:NA
+--------
+302613,Unknown or unassigned country,
+302612,Zimbabwe,
+302611,Zambia,
+302610,South Africa,
+302609,Mayotte,
+302671,Yemen,
+302788,Samoa,
+302787,Wallis and Futuna,
+302786,Vanuatu,
+302670,Vietnam,
+302758,U.S. Virgin Islands,
+302757,British Virgin Islands,
+302802,Venezuela,
+302756,Saint Vincent and the Grenadines,
+302721,Vatican City,
+302669,Uzbekistan,
+302801,Uruguay,
+302755,United States,
+302785,United States Minor Outlying Islands,
+302608,Uganda,
+302719,Ukraine,
+302607,Tanzania,
+302668,Taiwan,
+302557,Burkina Faso,
+302676,Belgium,
+302622,Bangladesh,
+302726,Barbados,
+302675,Bosnia and Herzegovina,
+302621,Azerbaijan,
+302725,Azerbaijan,
+302764,Australia,
+302674,Austria,
+302763,American Samoa,
+302789,Argentina,
+302615,Antarctica,
+302556,Angola,
+302620,Armenia,
+302673,Albania,
+302723,Anguilla,
+302722,Antigua and Barbuda,
+302619,Afghanistan,
+22,Spain,
+22,India,
+22,United Arab Emirates,
+22,Andorra,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+22
+Querytype:select
+Tablename:countries
+Columns:NAME
+Distinct:NA
+Condition:ID >= 22 
+Orderby:NAME,ID
+Groupby:NA
+Having:NA
+--------
+Unknown or unassigned country,
+Zimbabwe,
+Zambia,
+South Africa,
+Mayotte,
+Yemen,
+Samoa,
+Wallis and Futuna,
+Vanuatu,
+Vietnam,
+U.S. Virgin Islands,
+British Virgin Islands,
+Venezuela,
+Saint Vincent and the Grenadines,
+Vatican City,
+Uzbekistan,
+Uruguay,
+United States,
+United States Minor Outlying Islands,
+Uganda,
+Ukraine,
+Tanzania,
+Taiwan,
+Burkina Faso,
+Belgium,
+Bangladesh,
+Barbados,
+Bosnia and Herzegovina,
+Azerbaijan,
+Azerbaijan,
+Australia,
+Austria,
+American Samoa,
+Argentina,
+Antarctica,
+Angola,
+Armenia,
+Albania,
+Anguilla,
+Antigua and Barbuda,
+Afghanistan,
+Spain,
+India,
+United Arab Emirates,
+Andorra,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+23
+Querytype:select
+Tablename:countries
+Columns:NAME,ID
+Distinct:NA
+Condition:ID >= 22 
+Orderby:ID
+Groupby:NA
+Having:NA
+--------
+22,Spain,
+22,India,
+22,United Arab Emirates,
+22,Andorra,
+302556,Angola,
+302557,Burkina Faso,
+302607,Tanzania,
+302608,Uganda,
+302609,Mayotte,
+302610,South Africa,
+302611,Zambia,
+302612,Zimbabwe,
+302613,Unknown or unassigned country,
+302615,Antarctica,
+302619,Afghanistan,
+302620,Armenia,
+302621,Azerbaijan,
+302622,Bangladesh,
+302668,Taiwan,
+302669,Uzbekistan,
+302670,Vietnam,
+302671,Yemen,
+302673,Albania,
+302674,Austria,
+302675,Bosnia and Herzegovina,
+302676,Belgium,
+302719,Ukraine,
+302721,Vatican City,
+302722,Antigua and Barbuda,
+302723,Anguilla,
+302725,Azerbaijan,
+302726,Barbados,
+302755,United States,
+302756,Saint Vincent and the Grenadines,
+302757,British Virgin Islands,
+302758,U.S. Virgin Islands,
+302763,American Samoa,
+302764,Australia,
+302785,United States Minor Outlying Islands,
+302786,Vanuatu,
+302787,Wallis and Futuna,
+302788,Samoa,
+302789,Argentina,
+302801,Uruguay,
+302802,Venezuela,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+24
+Querytype:select
+Tablename:countries
+Columns:ID,NAME
+Distinct:NA
+Condition:ID >= 22 
+Orderby:NAME,ID
+Groupby:NA
+Having:NA
+--------
+302613,Unknown or unassigned country,
+302612,Zimbabwe,
+302611,Zambia,
+302610,South Africa,
+302609,Mayotte,
+302671,Yemen,
+302788,Samoa,
+302787,Wallis and Futuna,
+302786,Vanuatu,
+302670,Vietnam,
+302758,U.S. Virgin Islands,
+302757,British Virgin Islands,
+302802,Venezuela,
+302756,Saint Vincent and the Grenadines,
+302721,Vatican City,
+302669,Uzbekistan,
+302801,Uruguay,
+302755,United States,
+302785,United States Minor Outlying Islands,
+302608,Uganda,
+302719,Ukraine,
+302607,Tanzania,
+302668,Taiwan,
+302557,Burkina Faso,
+302676,Belgium,
+302622,Bangladesh,
+302726,Barbados,
+302675,Bosnia and Herzegovina,
+302621,Azerbaijan,
+302725,Azerbaijan,
+302764,Australia,
+302674,Austria,
+302763,American Samoa,
+302789,Argentina,
+302615,Antarctica,
+302556,Angola,
+302620,Armenia,
+302673,Albania,
+302723,Anguilla,
+302722,Antigua and Barbuda,
+302619,Afghanistan,
+22,Spain,
+22,India,
+22,United Arab Emirates,
+22,Andorra,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+25
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID >= 22 
+Orderby:ID
+Groupby:NA
+Having:NA
+--------
+22,AG,Spain,SA,
+22,AF,India,AS,
+22,AE,United Arab Emirates,AS,
+22,AD,Andorra,EU,
+302556,AO,Angola,AF,
+302557,BF,Burkina Faso,AF,
+302607,TZ,Tanzania,AF,
+302608,UG,Uganda,AF,
+302609,YT,Mayotte,AF,
+302610,ZA,South Africa,AF,
+302611,ZM,Zambia,AF,
+302612,ZW,Zimbabwe,AF,
+302613,ZZ,Unknown or unassigned country,AF,
+302615,AQ,Antarctica,AN,
+302619,AF,Afghanistan,AS,
+302620,AM,Armenia,AS,
+302621,AZ,Azerbaijan,AS,
+302622,BD,Bangladesh,AS,
+302668,TW,Taiwan,AS,
+302669,UZ,Uzbekistan,AS,
+302670,VN,Vietnam,AS,
+302671,YE,Yemen,AS,
+302673,AL,Albania,EU,
+302674,AT,Austria,EU,
+302675,BA,Bosnia and Herzegovina,EU,
+302676,BE,Belgium,EU,
+302719,UA,Ukraine,EU,
+302721,VA,Vatican City,EU,
+302722,AG,Antigua and Barbuda,NA,
+302723,AI,Anguilla,NA,
+302725,AW,Azerbaijan,NA,
+302726,BB,Barbados,NA,
+302755,US,United States,NA,
+302756,VC,Saint Vincent and the Grenadines,NA,
+302757,VG,British Virgin Islands,NA,
+302758,VI,U.S. Virgin Islands,NA,
+302763,AS,American Samoa,OC,
+302764,AU,Australia,OC,
+302785,UM,United States Minor Outlying Islands,OC,
+302786,VU,Vanuatu,OC,
+302787,WF,Wallis and Futuna,OC,
+302788,WS,Samoa,OC,
+302789,AR,Argentina,SA,
+302801,UY,Uruguay,SA,
+302802,VE,Venezuela,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+26
+Querytype:select
+Tablename:countries
+Columns:ID,CONTINENT
+Distinct:NA
+Condition:ID >= 22 
+Orderby:ID
+Groupby:NA
+Having:NA
+--------
+22,SA,
+22,AS,
+22,AS,
+22,EU,
+302556,AF,
+302557,AF,
+302607,AF,
+302608,AF,
+302609,AF,
+302610,AF,
+302611,AF,
+302612,AF,
+302613,AF,
+302615,AN,
+302619,AS,
+302620,AS,
+302621,AS,
+302622,AS,
+302668,AS,
+302669,AS,
+302670,AS,
+302671,AS,
+302673,EU,
+302674,EU,
+302675,EU,
+302676,EU,
+302719,EU,
+302721,EU,
+302722,NA,
+302723,NA,
+302725,NA,
+302726,NA,
+302755,NA,
+302756,NA,
+302757,NA,
+302758,NA,
+302763,OC,
+302764,OC,
+302785,OC,
+302786,OC,
+302787,OC,
+302788,OC,
+302789,SA,
+302801,SA,
+302802,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+27
+Querytype:select
+Tablename:countries
+Columns:ID,CONTINENT
+Distinct:NA
+Condition:ID >= 22 
+Orderby:ID,CONTINENT
+Groupby:NA
+Having:NA
+--------
+22,SA,
+22,AS,
+22,AS,
+22,EU,
+302556,AF,
+302557,AF,
+302607,AF,
+302608,AF,
+302609,AF,
+302610,AF,
+302611,AF,
+302612,AF,
+302613,AF,
+302615,AN,
+302619,AS,
+302620,AS,
+302621,AS,
+302622,AS,
+302668,AS,
+302669,AS,
+302670,AS,
+302671,AS,
+302673,EU,
+302674,EU,
+302675,EU,
+302676,EU,
+302719,EU,
+302721,EU,
+302722,NA,
+302723,NA,
+302725,NA,
+302726,NA,
+302755,NA,
+302756,NA,
+302757,NA,
+302758,NA,
+302763,OC,
+302764,OC,
+302785,OC,
+302786,OC,
+302787,OC,
+302788,OC,
+302789,SA,
+302801,SA,
+302802,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+28
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID >= 22 
+Orderby:NAME
+Groupby:NA
+Having:NA
+--------
+302619,AF,Afghanistan,AS,
+302673,AL,Albania,EU,
+302763,AS,American Samoa,OC,
+22,AD,Andorra,EU,
+302556,AO,Angola,AF,
+302723,AI,Anguilla,NA,
+302615,AQ,Antarctica,AN,
+302722,AG,Antigua and Barbuda,NA,
+302789,AR,Argentina,SA,
+302620,AM,Armenia,AS,
+302764,AU,Australia,OC,
+302674,AT,Austria,EU,
+302621,AZ,Azerbaijan,AS,
+302725,AW,Azerbaijan,NA,
+302622,BD,Bangladesh,AS,
+302726,BB,Barbados,NA,
+302676,BE,Belgium,EU,
+302675,BA,Bosnia and Herzegovina,EU,
+302757,VG,British Virgin Islands,NA,
+302557,BF,Burkina Faso,AF,
+22,AF,India,AS,
+302609,YT,Mayotte,AF,
+302756,VC,Saint Vincent and the Grenadines,NA,
+302788,WS,Samoa,OC,
+302610,ZA,South Africa,AF,
+22,AG,Spain,SA,
+302668,TW,Taiwan,AS,
+302607,TZ,Tanzania,AF,
+302758,VI,U.S. Virgin Islands,NA,
+302608,UG,Uganda,AF,
+302719,UA,Ukraine,EU,
+22,AE,United Arab Emirates,AS,
+302755,US,United States,NA,
+302785,UM,United States Minor Outlying Islands,OC,
+302613,ZZ,Unknown or unassigned country,AF,
+302801,UY,Uruguay,SA,
+302669,UZ,Uzbekistan,AS,
+302786,VU,Vanuatu,OC,
+302721,VA,Vatican City,EU,
+302802,VE,Venezuela,SA,
+302670,VN,Vietnam,AS,
+302787,WF,Wallis and Futuna,OC,
+302671,YE,Yemen,AS,
+302611,ZM,Zambia,AF,
+302612,ZW,Zimbabwe,AF,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+29
+Querytype:select
+Tablename:countries
+Columns:ID,CONTINENT
+Distinct:NA
+Condition:ID >= 22 
+Orderby:CONTINENT
+Groupby:NA
+Having:NA
+--------
+302613,AF,
+302612,AF,
+302611,AF,
+302610,AF,
+302609,AF,
+302608,AF,
+302607,AF,
+302557,AF,
+302556,AF,
+302615,AN,
+302671,AS,
+302670,AS,
+302669,AS,
+302668,AS,
+302622,AS,
+302621,AS,
+302620,AS,
+302619,AS,
+22,AS,
+22,AS,
+302721,EU,
+302719,EU,
+302676,EU,
+302675,EU,
+302674,EU,
+302673,EU,
+22,EU,
+302758,NA,
+302757,NA,
+302756,NA,
+302755,NA,
+302726,NA,
+302725,NA,
+302723,NA,
+302722,NA,
+302788,OC,
+302787,OC,
+302786,OC,
+302785,OC,
+302764,OC,
+302763,OC,
+302802,SA,
+302801,SA,
+302789,SA,
+22,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+30
+Querytype:select
+Tablename:countries
+Columns:ID,CODE,NAME,CONTINENT
+Distinct:NA
+Condition:ID >= 22 
+Orderby:ID,CONTINENT
+Groupby:NA
+Having:NA
+--------
+22,AG,Spain,SA,
+22,AF,India,AS,
+22,AE,United Arab Emirates,AS,
+22,AD,Andorra,EU,
+302556,AO,Angola,AF,
+302557,BF,Burkina Faso,AF,
+302607,TZ,Tanzania,AF,
+302608,UG,Uganda,AF,
+302609,YT,Mayotte,AF,
+302610,ZA,South Africa,AF,
+302611,ZM,Zambia,AF,
+302612,ZW,Zimbabwe,AF,
+302613,ZZ,Unknown or unassigned country,AF,
+302615,AQ,Antarctica,AN,
+302619,AF,Afghanistan,AS,
+302620,AM,Armenia,AS,
+302621,AZ,Azerbaijan,AS,
+302622,BD,Bangladesh,AS,
+302668,TW,Taiwan,AS,
+302669,UZ,Uzbekistan,AS,
+302670,VN,Vietnam,AS,
+302671,YE,Yemen,AS,
+302673,AL,Albania,EU,
+302674,AT,Austria,EU,
+302675,BA,Bosnia and Herzegovina,EU,
+302676,BE,Belgium,EU,
+302719,UA,Ukraine,EU,
+302721,VA,Vatican City,EU,
+302722,AG,Antigua and Barbuda,NA,
+302723,AI,Anguilla,NA,
+302725,AW,Azerbaijan,NA,
+302726,BB,Barbados,NA,
+302755,US,United States,NA,
+302756,VC,Saint Vincent and the Grenadines,NA,
+302757,VG,British Virgin Islands,NA,
+302758,VI,U.S. Virgin Islands,NA,
+302763,AS,American Samoa,OC,
+302764,AU,Australia,OC,
+302785,UM,United States Minor Outlying Islands,OC,
+302786,VU,Vanuatu,OC,
+302787,WF,Wallis and Futuna,OC,
+302788,WS,Samoa,OC,
+302789,AR,Argentina,SA,
+302801,UY,Uruguay,SA,
+302802,VE,Venezuela,SA,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+31
+Querytype:select
+Tablename:countries
+Columns:ID
+Distinct:NA
+Condition:ID >= 22 
+Orderby:CONTINENT
+Groupby:NA
+Having:NA
+--------
+302613,
+302612,
+302611,
+302610,
+302609,
+302608,
+302607,
+302557,
+302556,
+302615,
+302671,
+302670,
+302669,
+302668,
+302622,
+302621,
+302620,
+302619,
+22,
+22,
+302721,
+302719,
+302676,
+302675,
+302674,
+302673,
+22,
+302758,
+302757,
+302756,
+302755,
+302726,
+302725,
+302723,
+302722,
+302788,
+302787,
+302786,
+302785,
+302764,
+302763,
+302802,
+302801,
+302789,
+22,
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+32
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+22 22 California 
+302721 302721 Manchester 
+302722 302722 Melbourne 
+302723 302723 West Indies 
+302725 302725 Real Madrid 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+33
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+34
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+35
+302789 302725 Real Madrid 
+302789 302724 Barcelona 
+302764 302722 Melbourne 
+302726 302723 West Indies 
+22 300520 Karnataka 
+22 300519 Andhra Pradesh 
+22 300518 Telangana 
+22 22 Jammu 
+22 22 Arunachal 
+22 22 Kerala 
+22 22 Mafa 
+302610 300521 Johanesburg 
+302755 300517 New York 
+302755 300516 Texas 
+302755 22 California 
+302612 300522 Harare 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+36
+302613 300522 Harare 
+302613 300521 Johanesburg 
+302612 300522 Harare 
+302612 300521 Johanesburg 
+302611 300522 Harare 
+302611 300521 Johanesburg 
+302610 300522 Harare 
+302610 300521 Johanesburg 
+302609 300522 Harare 
+302609 300521 Johanesburg 
+302608 300522 Harare 
+302608 300521 Johanesburg 
+302607 300522 Harare 
+302607 300521 Johanesburg 
+302557 300522 Harare 
+302557 300521 Johanesburg 
+302556 300522 Harare 
+302556 300521 Johanesburg 
+302671 300520 Karnataka 
+302671 300519 Andhra Pradesh 
+302671 300518 Telangana 
+302670 300520 Karnataka 
+302670 300519 Andhra Pradesh 
+302670 300518 Telangana 
+302669 300520 Karnataka 
+302669 300519 Andhra Pradesh 
+302669 300518 Telangana 
+302668 300520 Karnataka 
+302668 300519 Andhra Pradesh 
+302668 300518 Telangana 
+302622 300520 Karnataka 
+302622 300519 Andhra Pradesh 
+302622 300518 Telangana 
+302621 300520 Karnataka 
+302621 300519 Andhra Pradesh 
+302621 300518 Telangana 
+302620 300520 Karnataka 
+302620 300519 Andhra Pradesh 
+302620 300518 Telangana 
+302619 300520 Karnataka 
+302619 300519 Andhra Pradesh 
+302619 300518 Telangana 
+22 300520 Karnataka 
+22 300519 Andhra Pradesh 
+22 300518 Telangana 
+22 300520 Karnataka 
+22 300519 Andhra Pradesh 
+22 300518 Telangana 
+302721 302721 Manchester 
+302719 302721 Manchester 
+302676 302721 Manchester 
+302675 302721 Manchester 
+302674 302721 Manchester 
+302673 302721 Manchester 
+22 302721 Manchester 
+302758 302723 West Indies 
+302758 300517 New York 
+302758 300516 Texas 
+302758 22 Jammu 
+302758 22 Arunachal 
+302758 22 Kerala 
+302758 22 Mafa 
+302758 22 California 
+302757 302723 West Indies 
+302757 300517 New York 
+302757 300516 Texas 
+302757 22 Jammu 
+302757 22 Arunachal 
+302757 22 Kerala 
+302757 22 Mafa 
+302757 22 California 
+302756 302723 West Indies 
+302756 300517 New York 
+302756 300516 Texas 
+302756 22 Jammu 
+302756 22 Arunachal 
+302756 22 Kerala 
+302756 22 Mafa 
+302756 22 California 
+302755 302723 West Indies 
+302755 300517 New York 
+302755 300516 Texas 
+302755 22 Jammu 
+302755 22 Arunachal 
+302755 22 Kerala 
+302755 22 Mafa 
+302755 22 California 
+302726 302723 West Indies 
+302726 300517 New York 
+302726 300516 Texas 
+302726 22 Jammu 
+302726 22 Arunachal 
+302726 22 Kerala 
+302726 22 Mafa 
+302726 22 California 
+302725 302723 West Indies 
+302725 300517 New York 
+302725 300516 Texas 
+302725 22 Jammu 
+302725 22 Arunachal 
+302725 22 Kerala 
+302725 22 Mafa 
+302725 22 California 
+302723 302723 West Indies 
+302723 300517 New York 
+302723 300516 Texas 
+302723 22 Jammu 
+302723 22 Arunachal 
+302723 22 Kerala 
+302723 22 Mafa 
+302723 22 California 
+302722 302723 West Indies 
+302722 300517 New York 
+302722 300516 Texas 
+302722 22 Jammu 
+302722 22 Arunachal 
+302722 22 Kerala 
+302722 22 Mafa 
+302722 22 California 
+302788 302722 Melbourne 
+302787 302722 Melbourne 
+302786 302722 Melbourne 
+302785 302722 Melbourne 
+302764 302722 Melbourne 
+302763 302722 Melbourne 
+302802 302725 Real Madrid 
+302802 302724 Barcelona 
+302801 302725 Real Madrid 
+302801 302724 Barcelona 
+302789 302725 Real Madrid 
+302789 302724 Barcelona 
+22 302725 Real Madrid 
+22 302724 Barcelona 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+37
+302613 300522 Harare 
+302613 300521 Johanesburg 
+302612 300522 Harare 
+302612 300521 Johanesburg 
+302611 300522 Harare 
+302611 300521 Johanesburg 
+302610 300522 Harare 
+302610 300521 Johanesburg 
+302609 300522 Harare 
+302609 300521 Johanesburg 
+302608 300522 Harare 
+302608 300521 Johanesburg 
+302607 300522 Harare 
+302607 300521 Johanesburg 
+302557 300522 Harare 
+302557 300521 Johanesburg 
+302556 300522 Harare 
+302556 300521 Johanesburg 
+302671 300520 Karnataka 
+302671 300519 Andhra Pradesh 
+302671 300518 Telangana 
+302670 300520 Karnataka 
+302670 300519 Andhra Pradesh 
+302670 300518 Telangana 
+302669 300520 Karnataka 
+302669 300519 Andhra Pradesh 
+302669 300518 Telangana 
+302668 300520 Karnataka 
+302668 300519 Andhra Pradesh 
+302668 300518 Telangana 
+302622 300520 Karnataka 
+302622 300519 Andhra Pradesh 
+302622 300518 Telangana 
+302621 300520 Karnataka 
+302621 300519 Andhra Pradesh 
+302621 300518 Telangana 
+302620 300520 Karnataka 
+302620 300519 Andhra Pradesh 
+302620 300518 Telangana 
+302619 300520 Karnataka 
+302619 300519 Andhra Pradesh 
+302619 300518 Telangana 
+22 300520 Karnataka 
+22 300519 Andhra Pradesh 
+22 300518 Telangana 
+22 300520 Karnataka 
+22 300519 Andhra Pradesh 
+22 300518 Telangana 
+302721 302721 Manchester 
+302719 302721 Manchester 
+302676 302721 Manchester 
+302675 302721 Manchester 
+302674 302721 Manchester 
+302673 302721 Manchester 
+22 302721 Manchester 
+302758 302723 West Indies 
+302758 300517 New York 
+302758 300516 Texas 
+302758 22 Jammu 
+302758 22 Arunachal 
+302758 22 Kerala 
+302758 22 Mafa 
+302758 22 California 
+302757 302723 West Indies 
+302757 300517 New York 
+302757 300516 Texas 
+302757 22 Jammu 
+302757 22 Arunachal 
+302757 22 Kerala 
+302757 22 Mafa 
+302757 22 California 
+302756 302723 West Indies 
+302756 300517 New York 
+302756 300516 Texas 
+302756 22 Jammu 
+302756 22 Arunachal 
+302756 22 Kerala 
+302756 22 Mafa 
+302756 22 California 
+302755 302723 West Indies 
+302755 300517 New York 
+302755 300516 Texas 
+302755 22 Jammu 
+302755 22 Arunachal 
+302755 22 Kerala 
+302755 22 Mafa 
+302755 22 California 
+302726 302723 West Indies 
+302726 300517 New York 
+302726 300516 Texas 
+302726 22 Jammu 
+302726 22 Arunachal 
+302726 22 Kerala 
+302726 22 Mafa 
+302726 22 California 
+302725 302723 West Indies 
+302725 300517 New York 
+302725 300516 Texas 
+302725 22 Jammu 
+302725 22 Arunachal 
+302725 22 Kerala 
+302725 22 Mafa 
+302725 22 California 
+302723 302723 West Indies 
+302723 300517 New York 
+302723 300516 Texas 
+302723 22 Jammu 
+302723 22 Arunachal 
+302723 22 Kerala 
+302723 22 Mafa 
+302723 22 California 
+302722 302723 West Indies 
+302722 300517 New York 
+302722 300516 Texas 
+302722 22 Jammu 
+302722 22 Arunachal 
+302722 22 Kerala 
+302722 22 Mafa 
+302722 22 California 
+302788 302722 Melbourne 
+302787 302722 Melbourne 
+302786 302722 Melbourne 
+302785 302722 Melbourne 
+302764 302722 Melbourne 
+302763 302722 Melbourne 
+302802 302725 Real Madrid 
+302802 302724 Barcelona 
+302801 302725 Real Madrid 
+302801 302724 Barcelona 
+302789 302725 Real Madrid 
+302789 302724 Barcelona 
+22 302725 Real Madrid 
+22 302724 Barcelona 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`

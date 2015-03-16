@@ -1,0 +1,25 @@
+1
+numpage -> PAGE_SIZE = 300 ; NUM_PAGES = [1 : 10 : 1] -> 10 iterations
+sizepage -> PAGE_SIZE = [150 : 2130 : 20] -> 100 iterations ; NUM_PAGES = 10
+Take [1-30] inputs of the test.txt file and put in "DBSystem.cpp"
+
+2
+numpage -> PAGE_SIZE = 300 ; NUM_PAGES = [1 : 10 : 1] -> 10 iterations
+sizepage -> PAGE_SIZE = [150 : 2130 : 20] -> 100 iterations ; NUM_PAGES = 10
+Take [31-60] inputs of the test.txt file and put in "DBSystem.cpp"
+
+3
+numpage -> PAGE_SIZE = 300 ; NUM_PAGES = [1 : 10 : 1] -> 10 iterations
+sizepage -> PAGE_SIZE = [150 : 2130 : 20] -> 100 iterations ; NUM_PAGES = 10
+Take [61-100] inputs of the test.txt file and put in "DBSystem.cpp"
+
+4
+numpage -> PAGE_SIZE = 200 ; NUM_PAGES = [1 : 10 : 1] -> 10 iterations
+sizepage -> PAGE_SIZE = [130 : 2110 : 20] -> 100 iterations ; NUM_PAGES = 10
+Take [61-100] inputs of the test.txt file and put in "DBSystem.cpp"
+
+5
+numpage -> PAGE_SIZE = 200 ; NUM_PAGES = [1 : 10 : 1] -> 10 iterations
+sizepage -> PAGE_SIZE = [130 : 2110 : 20] -> 100 iterations ; NUM_PAGES = 10
+Take [1-30] inputs of the test.txt file and put in "DBSystem.cpp"
+
